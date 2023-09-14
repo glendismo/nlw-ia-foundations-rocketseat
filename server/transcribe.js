@@ -6,7 +6,7 @@ export async function transcribe(audio) {
   try {
     // return transcriptionExample
 
-    console.log("Realizando a transcrição...")
+    console.log("Realizando a transicrição...")
 
     const transcribe = await pipeline(
       "automatic-speech-recognition",
